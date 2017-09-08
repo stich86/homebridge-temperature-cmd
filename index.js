@@ -21,7 +21,6 @@ function TemperatureCmdAccessory(log, config) {
 }
 
 TemperatureCmdAccessory.prototype.getState = function(callback) {
-  var self = this;
   exec(this.cmd, function (err, data) {
     if (err) {
       callback(err);
