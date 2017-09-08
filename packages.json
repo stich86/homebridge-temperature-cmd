@@ -1,0 +1,20 @@
+{
+  "name": "homebridge-temperature-cmd",
+  "version": "0.0.1",
+  "description": "Read temperature from cmd",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stich86/homebridge-temperature-cmd.git"
+  },
+  "bugs": {
+    "url": "http://github.com/stich86/homebridge-temperature-cmd/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  }
+}
